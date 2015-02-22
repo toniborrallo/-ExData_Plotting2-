@@ -8,7 +8,7 @@ if (!"NEI" %in% ls()) {
 ## If SSC loaded in Environment 
 if (!"SSC" %in% ls()) {
   SCC <- readRDS("data/Source_Classification_Code.rds")
-}
+} 
 
 png(filename = "plot6.png", width = 480, height = 480, units = "px")
 
