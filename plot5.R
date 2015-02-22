@@ -3,7 +3,7 @@ if (!"NEI" %in% ls()) {
   ## This first line will likely take a few seconds. Be patient!
   NEI <- readRDS("data/summarySCC_PM25.rds")
 }
-
+ 
 ## If SSC loaded in Environment 
 if (!"SSC" %in% ls()) {
   SCC <- readRDS("data/Source_Classification_Code.rds")
